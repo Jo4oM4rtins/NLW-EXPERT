@@ -1,95 +1,96 @@
 const perguntas = [
   {
-    pergunta: "Quem é Jesus na fé cristã?",
+    pergunta: "Qual é o maior oceano do mundo?",
     respostas: [
-      "Um profeta",
-      "O Filho de Deus",
-      "Um líder político"
+      "Oceano Atlântico",
+      "Oceano Pacífico",
+      "Oceano Índico"
     ],
     correta: 1
   },
   {
-    pergunta: "Onde Jesus nasceu?",
+    pergunta: "Qual é a montanha mais alta do mundo?",
     respostas: [
-      "Nazareth",
-      "Jerusalém",
-      "Belém"
+      "Monte Everest",
+      "Monte Kilimanjaro",
+      "Monte Fuji"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Quem escreveu 'Romeu e Julieta'?",
+    respostas: [
+      "William Shakespeare",
+      "Jane Austen",
+      "Charles Dickens"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a capital do Brasil?",
+    respostas: [
+      "Rio de Janeiro",
+      "São Paulo",
+      "Brasília"
     ],
     correta: 2
   },
   {
-    pergunta: "Qual dos seguintes não é um dos doze apóstolos de Jesus?",
+    pergunta: "Quem pintou a Mona Lisa?",
     respostas: [
-      "Pedro",
-      "João",
-      "Judas Iscariotes"
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Vincent van Gogh"
     ],
     correta: 0
   },
   {
-    pergunta: "Quantos anos Jesus tinha quando começou seu ministério público?",
+    pergunta: "Qual é o país com a maior área territorial do mundo?",
     respostas: [
-      "25",
-      "30",
-      "35"
+      "China",
+      "Rússia",
+      "Estados Unidos"
     ],
     correta: 1
   },
   {
-    pergunta: "Qual é o significado do nome 'Jesus'?",
+    pergunta: "Qual é o maior animal terrestre?",
     respostas: [
-      "Salvador",
-      "Curador",
-      "Profeta"
+      "Elefante africano",
+      "Baleia azul",
+      "Girafa"
     ],
     correta: 0
   },
   {
-    pergunta: "O que Jesus fez em seu ministério?",
+    pergunta: "Quem foi o primeiro ser humano a pisar na Lua?",
     respostas: [
-      "Curou os doentes e ensinou sobre o amor de Deus",
-      "Lutou contra os governantes romanos",
-      "Viajou pelo mundo pregando sobre filosofia"
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Yuri Gagarin"
     ],
     correta: 0
   },
   {
-    pergunta: "Como Jesus morreu?",
+    pergunta: "Qual é o maior deserto do mundo?",
     respostas: [
-      "Afogado",
-      "De velhice",
-      "Crucificado"
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "Qual é a mensagem principal do ensinamento de Jesus?",
-    respostas: [
-      "Amar a Deus sobre todas as coisas",
-      "Amar o próximo como a si mesmo",
-      "A busca pelo poder e riqueza"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "O que aconteceu três dias após a morte de Jesus, de acordo com a Bíblia?",
-    respostas: [
-      "Ele ressuscitou dos mortos",
-      "Ele foi esquecido",
-      "Ele apareceu em um sonho para seus discípulos"
+      "Deserto do Saara",
+      "Deserto de Atacama",
+      "Deserto da Arábia"
     ],
     correta: 0
   },
   {
-    pergunta: "Qual é a última ordem de Jesus antes de ascender aos céus?",
+    pergunta: "Quem foi o primeiro presidente dos Estados Unidos?",
     respostas: [
-      "Distribuir riquezas",
-      "Pregar o Evangelho a todas as nações",
-      "Organizar um exército"
+      "Thomas Jefferson",
+      "George Washington",
+      "Abraham Lincoln"
     ],
     correta: 1
   },
 ];
+
 
   
   const quiz = document.querySelector('#quiz')
